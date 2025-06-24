@@ -1,34 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@600&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@700&display=swap"
+    rel="stylesheet">
+
   <title>Frontend Mentor | Social links profile</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    html,
+    body {
+      height: 100%;
+    }
+
+    body {
+      /* height: 100%; */
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      /* align-content: center; */
+      /* height: 100%; */
+      width: 23%;
+      background-color: hsl(0, 0%, 20%);
+      color: white;
+      border: 1px solid black;
+      box-shadow: 2px 2px black;
+      border-radius: 3%;
+    }
+
+    .card-image {
+      border-radius: 50%;
+      margin: 15%;
+    }
+
+    .location {
+      color: hsl(75, 94%, 57%);
+      font-family: "Outfit", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 14px;
+      margin-bottom: 4%;
+    }
+
+    .name {
+      font-family: "Outfit", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 18px;
+    }
+
+    .occupation {
+      font-family: "Outfit", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 14px;
+      margin: 3%;
+    }
+
+    .github,
+    .frontendmentor,
+    .linkedin,
+    .twitter,
+    .insta {
+      background-color: hsl(0, 0%, 40%);
+      padding: 2%;
+      margin: 3%;
+      border-radius: 7%;
+      width: 80%;
+      text-align: center;
+      font-family: "Outfit", sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+    }
   </style>
 </head>
+
 <body>
-
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
-
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="card">
+    <img src="./assets/images/avatar-jessica.jpeg" alt="avatar" class="card-image">
+    <div class="name">Jessica Randall</div>
+    <div class="location">London, United Kingdom</div>
+    <div class="occupation"> "Front-end developer and avid reader."</div>
+    <div class="github"> GitHub</div>
+    <div class="frontendmentor"> Frontend Mentor</div>
+    <div class="linkedin">LinkedIn</div>
+    <div class="twitter"> Twitter</div>
+    <div class="insta"> Instagram</div>
   </div>
 </body>
+
 </html>
