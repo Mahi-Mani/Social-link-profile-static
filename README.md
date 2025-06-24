@@ -1,6 +1,6 @@
-# Frontend Mentor - Blog Preview Card
+# Frontend Mentor - Social link profile
 
-I built the Blog Preview card component based on the starter code provided by Frontend Mentor challenges. 
+I built the Social Link profile component based on the starter code provided by Frontend Mentor challenges from scratch with no frameworks. 
 
 ## Table of contents
 
@@ -18,7 +18,7 @@ I built the Blog Preview card component based on the starter code provided by Fr
 
 ### Links
 
-- Live Site URL: [Live site URL](https://mahi-mani.github.io/Blog-Preview-Card/)
+- Live Site URL: [Live site URL](https://mahi-mani.github.io/Social-link-profile-static/)
 
 ## My process
 
@@ -27,4 +27,3 @@ I built the Blog Preview card component based on the starter code provided by Fr
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Bootstrap
